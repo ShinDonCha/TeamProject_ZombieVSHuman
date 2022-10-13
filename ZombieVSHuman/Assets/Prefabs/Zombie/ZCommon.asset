@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be8cd477ab342a145b3ee92967f1527c, type: 3}
+  m_Name: ZCommon
+  m_EditorClassIdentifier: 
+  m_aniClip:
+    m_idleAni:
+    - {fileID: -203655887218126122, guid: 01aece4902005a6479940725e434bec1, type: 3}
+    - {fileID: -203655887218126122, guid: f07264fdad181ce45a447125bce4f821, type: 3}
+    - {fileID: 7400000, guid: 79d840b2c194fba46941f9f3a9291e04, type: 2}
+    - {fileID: 7400000, guid: 6f13f8f384a515743999472d7731ed4c, type: 2}
+    - {fileID: 7400000, guid: 793b092260ec13d409b726e38f642f64, type: 2}
+    m_attackAni:
+    - {fileID: -203655887218126122, guid: b9239f997bd822a4fa4d497bc3f4d123, type: 3}
+    - {fileID: -203655887218126122, guid: 21e01be2a3a61d1419705bf3c594cb0e, type: 3}
+    - {fileID: 7400000, guid: 6c3223112dd3b2749be503662d7144bb, type: 2}
+    - {fileID: 7400000, guid: 13b44a9c861e2aa499e65b9e0d93d46d, type: 2}
+    m_runAni:
+    - {fileID: -203655887218126122, guid: 1162821def5058040b33647302179b98, type: 3}
+    - {fileID: 7400000, guid: 48ae75d9ecde38d4aa2e86d2d503a19a, type: 2}
+    - {fileID: 7400000, guid: 6771ec324c63e5e418d3677e64553647, type: 2}
+    - {fileID: 7400000, guid: 899aef90a3eef54479af416404946ff0, type: 2}
+    - {fileID: 7400000, guid: 198b177405bbb3c46b3f6533c362d72d, type: 2}
+    m_dieAni:
+    - {fileID: -203655887218126122, guid: 01d9178e8ad7c6a46a6a32cb55830c6d, type: 3}
+    - {fileID: -203655887218126122, guid: 2a002a270b66102429db0957905c638c, type: 3}
+  m_bloodEff: {fileID: 197121971965432688, guid: 19d244521af2bb24797ddf00cf4da5da, type: 3}
+  m_bloodDec: {fileID: 1756072677125624258, guid: d7e0a7556e72db14fb7d9f8b5ca9b31e, type: 3}
+  m_decPos:
+  - -0.5
+  - 0
+  - 0.5
+  m_decTex:
+  - {fileID: 2800000, guid: 3985f3ec9ab2d244b89b27bd13f56de2, type: 3}
+  - {fileID: 2800000, guid: 8971352d6b7ae874ea418e970f6eeba8, type: 3}
+  - {fileID: 2800000, guid: 3f121f61a6097934385085f61b5c7a3c, type: 3}
+  - {fileID: 2800000, guid: 1005b1d81d334064ba87cf0f4ad117fa, type: 3}
+  m_dropItem: {fileID: 9159365182876658123, guid: 2c514a59a977a9444b4c939a6d035a4f, type: 3}
+  m_maxHp: 100
+  m_norTraceDist: 10
+  m_hitTraceDist: 25
